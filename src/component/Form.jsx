@@ -1,10 +1,16 @@
-import Button from "react-bootstrap/Button";
-import { Container, Card, Stack } from "react-bootstrap";
-import Form from "react-bootstrap/Form";
+import { Container, Card, Stack,Button,Form } from "react-bootstrap";
+
+// const v ={
+//     display: flex;
+//     width: 100%;
+//     max-width: 60%;
+//     margin: 0 auto;
+//     justify-content: center;
+// }
 
 function FormPage() {
   return (
-    <Container>
+    <Container className="roomfac">
       <br />
       <Card style={{ width: "30rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
