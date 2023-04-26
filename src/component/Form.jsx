@@ -9,7 +9,7 @@ function FormPage() {
     return <Success />;
   }
   return (
-    <Container className="roomfac">
+    <Container className="contact">
       <br />
       <Card style={{ width: "30rem" }}>
         <Card.Img
