@@ -1,16 +1,17 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import FormPage from "./Form";
 
 function Header() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
-            Contact us
-          </Navbar.Brand>
+          <Navbar.Brand>Contact us</Navbar.Brand>
         </Container>
       </Navbar>
+      <br />
+      <FormPage />
     </>
   );
 }

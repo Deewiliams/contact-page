@@ -1,11 +1,12 @@
 import { Container, Card, Stack, Button, Form } from "react-bootstrap";
 import image from "../image/contactus.jpg";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
+import Success from "./Success";
 
 function FormPage() {
   const [state, handleSubmit] = useForm("xyyalvwd");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <Success />;
   }
   return (
     <Container className="roomfac">
