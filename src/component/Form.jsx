@@ -1,21 +1,14 @@
-import { Container, Card, Stack,Button,Form } from "react-bootstrap";
-
-// const v ={
-//     display: flex;
-//     width: 100%;
-//     max-width: 60%;
-//     margin: 0 auto;
-//     justify-content: center;
-// }
+import { Container, Card, Stack, Button, Form } from "react-bootstrap";
+import image from "../image/contactus.jpg";
 
 function FormPage() {
   return (
     <Container className="roomfac">
       <br />
       <Card style={{ width: "30rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src={image} alt="contact us" height={200} width={100} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title style={{textAlign: "center"}} >Hello I'm <span style={{fontWeight: "bold"}}>Desire Irankunda</span></Card.Title>
           <Form>
             <Form.Group className="mb-3">
               <Form.Label>Full Names</Form.Label>
